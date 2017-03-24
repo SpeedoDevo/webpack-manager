@@ -77,9 +77,7 @@ module.exports = function(instance) {
 
   var module = createSetter(manager, "module");
   manager.module = module;
-  module.loaders = createSetter(manager, "module.loaders", true);
-  module.preLoaders = createSetter(manager, "module.preLoaders", true);
-  module.postLoaders = createSetter(manager, "module.postLoaders", true);
+  module.rules = createSetter(manager, "module.rules", true);
   module.noParse = createSetter(manager, "module.noParse", true);
   module.unknownContextRequest = createSetter(manager, "module.unknownContextRequest");
   module.unknownContextRecursive = createSetter(manager, "module.unknownContextRecursive");
