@@ -1,6 +1,6 @@
 {
   "name": "webpack-manager",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "The interface to configure Webpack via code instead of settings list",
   "main": "webpack-manager.js",
   "scripts": {
@@ -29,5 +29,8 @@
   "devDependencies": {
     "chai": "3.4.1",
     "mocha": "2.3.4"
+  },
+  "peerDependencies": {
+    "webpack": "2.3.x"
   }
 }
