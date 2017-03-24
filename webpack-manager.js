@@ -40,7 +40,6 @@ module.exports = function(instance) {
   manager.bail = createSetter(manager, "bail");
   manager.profile = createSetter(manager, "profile");
   manager.cache = createSetter(manager, "cache");
-  manager.debug = createSetter(manager, "debug");
   manager.devtool = createSetter(manager, "devtool");
   manager.node = createSetter(manager, "node");
   manager.amd = createSetter(manager, "amd");
